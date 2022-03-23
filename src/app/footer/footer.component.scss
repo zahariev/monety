@@ -1,6 +1,13 @@
-footer a {
-  display: flex;
-  align-items: center;
+footer {
+  a {
+    display: flex;
+    align-items: center;
+  }
+
+  span {
+    color: #545454;
+    padding: 5px;
+  }
 }
 
 .footer {
@@ -11,7 +18,8 @@ footer a {
   position: absolute;
   z-index: 999;
   align-items: center;
-  background-color: #899394;
+  //   background-color: #899394;
+  background-color: #d6d6d6;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -20,76 +28,48 @@ footer a {
   .logo {
     background-size: contain;
     background-repeat: no-repeat;
-    min-width: 60px;
+    min-width: 165px;
     min-height: 60px;
     cursor: pointer;
     z-index: 99999;
   }
 
-  #logo_mcc {
-    min-width: 250px;
-    background-image: url("logos/mcc.png");
+  .logo2 {
+    display: flex;
+
+    min-width: 455px;
+    min-height: 70px;
+    cursor: pointer;
+    z-index: 99999;
   }
 
-  #logo_erasmus {
-    width: 250px;
-    margin-right: 40px;
-    height: 50px;
-    background-image: url("logos/erasmus_logo.png");
+  #logo_lti {
+    background-image: url("logos/lti.png");
   }
 
-  #logo_national {
-    margin-left: 10px;
-    min-width: 220px;
-    min-height: 60px;
-    background-image: url("logos/national.png");
+  #logo_transformika {
+    // min-width: 170px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 165px;
+    min-height: 73px;
+    background-image: url("logos/transformika.png");
   }
 
-  #logo_monety {
-    display: inline-block;
-    width: 70px;
-    margin-top: -9px;
-    margin-left: 9px;
-    min-height: 65px;
-    background-image: url("logos/monety.png");
-  }
-
-  #logo_tmc {
-    min-width: 170px;
-    background-image: url("logos/tmc.png");
-  }
-
-  #logo_nmct {
-    background-image: url("logos/nmct.png");
+  #logo_playcraft {
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 127px;
+    min-height: 53px;
+    background-image: url("logos/playcraft.png");
+    padding-top: 5px;
   }
 
   #logo_bo_yana {
-    min-width: 120px;
-    min-height: 45px;
-    margin-left: 60px;
-    margin-right: 5px;
+    min-width: 112px;
+    min-height: 39px;
+    margin-top: 20px;
 
     background-image: url("https://ipos.bg/bo_yana_logo.png");
-  }
-
-  @media screen and (max-width: 831px), screen and (max-height: 500px) {
-    #logo_mcc {
-      min-width: 120px;
-      background-image: url("logos/mobile/mcc.png");
-    }
-
-    #logo_int_school {
-      min-height: 55px;
-
-      min-width: 80px;
-      background-image: url("logos/mobile/international.png");
-    }
-
-    #logo_national {
-      margin-left: 10px;
-      min-width: 80px;
-      min-height: 60px;
-      background-image: url("logos/mobile/national.png");
-    }
   }
 }
