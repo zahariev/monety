@@ -5,7 +5,7 @@ const Decks: Deck[] = [
   {
     id: 1,
     title: texts.deck1,
-    size: 40,
+    size: 41,
     color: "#d4412d",
     backSide: false,
     empty: false,
